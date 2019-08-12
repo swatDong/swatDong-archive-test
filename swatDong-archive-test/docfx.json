@@ -5,18 +5,25 @@
         "files": [
           "**/*.md",
           "**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
         ]
+      },
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "src": "demo-1.0-src"
+      },
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "src": "demo-2.0-src"
+      },
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "src": "demo-3.0-src"
       }
     ],
     "resource": [
@@ -44,6 +51,11 @@
     "fileMetadata": {},
     "template": [],
     "dest": "swatDong-archive-test",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "markdig",
+    "_op_documentIdPathDepotMapping": {
+      "./": {
+        "depot_name": "MSDN.qidonMonikerTest"
+      }
+    }
   }
 }
